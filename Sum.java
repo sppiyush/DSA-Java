@@ -1,3 +1,4 @@
+// Adding two numbers using function in java 
 import java.util.Scanner;
 
 public class Sum
