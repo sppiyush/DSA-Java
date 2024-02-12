@@ -1,7 +1,6 @@
 // We will check whether a particular word is in uppercase or in lowercase 
 import java.util.Scanner;
 
-
 public class Alphabet
 {
     public static void main (String[] args)
