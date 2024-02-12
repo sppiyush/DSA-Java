@@ -28,3 +28,9 @@ public class Largest
         System.out.println(max);
     }
 }
+
+/*
+ * However we can also use Math.max() function to calcualte the largest value
+ * int max = Math.max(c,Math.max(a,b));
+ * System.out.println(max);
+ */
