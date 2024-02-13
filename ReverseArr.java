@@ -5,7 +5,6 @@ public class ReverseArr
 {
     public static void main(String[] args) {
         int[] arr = {1,3,6,90,345,34};
-        //swap(arr,0,4);
         reverse(arr);
         System.out.println(Arrays.toString(arr));
         
