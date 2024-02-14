@@ -29,7 +29,8 @@ public class RearrSign {
         List<Integer> positive = new ArrayList<>();
         List<Integer> negative = new ArrayList<>();
 
-        for (int num : nums) {
+        for (int num : nums)  // for every num in my nums array 
+        {
             if (num > 0) {
                 positive.add(num);
             } else {
