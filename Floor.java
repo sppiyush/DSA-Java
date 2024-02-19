@@ -3,8 +3,16 @@ public class Floor
 {
     static int floor(int[] arr,int target)
     {
+       
+        
         int start = 0;
         int end = arr.length - 1;
+
+        if(target < arr[start])
+        {
+            return -1;
+        }
+        
 
         boolean isAsc;
         if (arr[start] < arr[end])
@@ -52,7 +60,7 @@ public class Floor
     public static void main(String[] args)
     {
         int[] arr = {23,45,89,100,102,120,123};
-        int target = 24;
+        int target = 29;
         int ans = floor(arr,target);
         System.out.println(ans);
     }
