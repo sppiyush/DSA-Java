@@ -3,10 +3,13 @@
 public class Mountain
 {
     public static void main(String[] args) {
+        int arr[] = {0,5,10,2};
+        int ans = peakIndexInMountainArray(arr);
+        System.out.println(ans);
         
     }
 
-    public int peakIndexInMountainArray(int[] arr)
+    public static int peakIndexInMountainArray(int[] arr)
     {
         int start = 0;
         int end = arr.length - 1;
